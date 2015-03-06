@@ -1,0 +1,35 @@
+body{
+ background-color: grey;
+ text-align: center;
+ font-family: Arial;
+ padding:20px;
+}
+
+#title {
+  font-size: 2em;
+
+}
+
+#subtitle{
+  font-size: 1.5em;
+}
+
+#date{
+ font-size: 1.25em;
+}
+
+#para{
+  font-size: 1em;
+  width: 50%;
+
+}
+
+a{
+  color: Silver;
+}
+
+#table{
+  padding: 20px;
+  position: fixed;
+  top: 150px;
+}
