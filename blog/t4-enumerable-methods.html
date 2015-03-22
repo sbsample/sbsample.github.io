@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hooray Code!</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+ <body>
+  <div id="picbanner"><img src="http://ih3.redbubble.net/image.27169355.2574/fc,550x550,forest.jpg"></div>
+
+  <nav>
+   <div class="navbar"> <a href= "http://sbsample.github.io/blog/index.html"> Blog Home</a></div>
+   <div class="navbar"><a href="#">About</a></div>
+   <div class="navbar"> <a href="#">Projects</a></div>
+   <div class="navbar"><a href="#">Etc</a></div>
+   <div class="navbar"><a href="#">Contact</a></div>
+  </nav>
+<main>
+<h2 id="title">Lord Enumerable</h2>
+<h3>All Hail the Enumerbable Methods!</h3>
+<h4>March 21, 2015</h4>
+
+<section>
+<div id="textplace">
+<p>The Enumerable Method. Sounds rather grand doesn't? Perhaps an epic? In this week's blog we will be discussing what an enumerable method is, and specifically, what #cycle is. Enumerable methods are quite the powerful tool in Ruby. They are enable to interact on multiple levels with any object that acts as a collection. For instance, a string, an array, and a hash are all able to be given up as offerings to the Lord Enumerable. As a rule, any object that can be modified with #each can interact with an Enumerable. "How do they work?" you ask? Well, lets look at #cycle.</p>
+<p> Cycle does what it says it does. It cycles whatever you give it. Ok, more specifically, it will examine what you input and perform whatever actions are specified in the block. Let's just say that I've upset my girlfriend(hypothetically, of course) and I want to tell her how sorry I am. I could write a program that would tell her. She'd like that :). I could write this.
+
+  message=" I'm Really Sorry!"
+   5.times {|i| puts message}
+  end
+
+That will tell her i'm sorry five times. Solid apology, but more effort than necessary. Please don't tell her that btw... To make things easier, I could use cycle.
+
+message.cycle(10) {|i| puts message}
+
+This will return the message ten times.  A better apology, and much easier. The only risks of the Enumerable #cycle are not specifying a cycle count and not using the block. The lack of a cycle(argument) will return the block infinite times, or until the computer is told to stop. The lack of a block will return an Enumerator. Nobody really knows what that means. It's a mystery. If I had to guess I'd say that it would be the contents of the object and the name of the method...so => "I'm Really Sorry!":cycle.
+</p>
+<p>Enumerables are awesome. Use them or....well, just use them.</p>
+<p>
+
+Again Soon,
+
+Staunton</p>
+</div>
+
+</section>
+
+</body>
