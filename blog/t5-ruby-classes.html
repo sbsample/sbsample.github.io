@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hooray Code!</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+ <body>
+  <div id="picbanner"><img src="http://ih3.redbubble.net/image.27169355.2574/fc,550x550,forest.jpg"></div>
+
+  <nav>
+   <div class="navbar"> <a href= "http://sbsample.github.io/blog/index.html"> Blog Home</a></div>
+   <div class="navbar"><a href="#">About</a></div>
+   <div class="navbar"> <a href="#">Projects</a></div>
+   <div class="navbar"><a href="#">Etc</a></div>
+   <div class="navbar"><a href="#">Contact</a></div>
+  </nav>
+<main>
+<h2 id="title">BreadPudding.new</h2>
+<h3>A Class for Delicious Programming</h3>
+<h4>March 27, 2015</h4>
+
+<section>
+<div id="textplace">
+<p>
+  Bread Pudding has to be one of the greatest inventions of the culinary world. The best of it is nirvana. Even the mediocre makes the day a bit better. This love of that decadant dessert made it the natural choice to discuss something that has vexed me for the past week, Ruby Class structures. In Ruby, everything that you interact with is an object. Variables, methods, strings are all objects. Yet thpse objects like, strings, are broken down into similar types called Classes. Continuing with the string example, strings are all ways of displaying and carrying regular text. The power of Ruby, or one of those major stengths at least, is the ability to define your own class. This allows you to group differing methods, variables, and such around a specific purpose. Today that example will be making Bread Pudding.</p>
+
+<p>
+  So let's start with what we what we know about making food. We will need ingrediants. For our concoction we will need ingrediants for the pudding and for the sauce seperately. I our code they will take the form of variables. We could store them in a number of ways, but lets just stick with a generalized variable. When coding without creating a class, we would have to make these variables global. Instead we are able to define them in terms of the scope of the class only with @. Therefore we will have @pudding and @sauce. The process of making the pudding will be represented by methods. Like the variables, we can define these in terms of the scope of the class. Therefore we don't have to continuosly create new methods each time we want to make a new pudding.
+</p>
+<p>
+  The code should look like this:
+  class Bread Pudding
+    def initialize
+    @pudding=pudding
+    @sauce=sauce
+    end
+
+    def combine_ingrediants
+      @mix = @pudding.combine{|mix, ingrediant| mix + ingrediant}
+    end
+
+    def bake_mix
+      @mix.bake
+    end
+
+    def make_sauce
+      @sauce.combine.heat
+    end
+
+    def serve
+    return bake_mix + make_sauce
+  end
+</p>
+
+<p>
+
+Again Soon,
+
+Staunton</p>
+</div>
+
+</section>
+
+</body>
