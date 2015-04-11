@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hooray Code!</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+ <body>
+  <div id="picbanner"><img src="http://ih3.redbubble.net/image.27169355.2574/fc,550x550,forest.jpg"></div>
+
+  <nav>
+   <div class="navbar"> <a href= "http://sbsample.github.io/blog/index.html"> Blog Home</a></div>
+   <div class="navbar"><a href="#">About</a></div>
+   <div class="navbar"> <a href="#">Projects</a></div>
+   <div class="navbar"><a href="#">Etc</a></div>
+   <div class="navbar"><a href="#">Contact</a></div>
+  </nav>
+<main>
+<h2 id="title">What's Up, Proc?</h2>
+<h3></h3>
+<h4>April 3, 2015</h4>
+
+<section>
+<div id="textplace">
+<p>There's a method to my madness. Ok, so that was really awful, but this week's technical blog will be discussing Blocks, Procs, and Lambdas. It feel's like a bit of madness on the surface, to be honest. Whenever a method is called, it will execute what ever it contains. This would be the block. It's the same for any loop, after the initial condition, the loop will run...something. The cool thing about Ruby is that it doesn't execute the block on sight. Instead, it remembers the commands given and executes at the defined moment.</p>
+
+<p>So, that brings us to the differences between a Lambda and a Proc. Both are similar to a nameless method. You can call a Proc or lambda without having to name either one. They will both execute a specfied block. There are two sginificant differences though. A Proc will return whatever follows it in the block immeadiately in the processing of the method, while a lambda will finish the code and return in the main body of the method. See the following,
+
+def func_one
+    proc_new = Proc.new {return "123"}
+    proc_new.call
+    return "456"
+end
+
+def func_two
+    lambda_new = lambda {return "123"}
+    lambda_new.call
+    return "456"
+end
+
+func_one will retun "123" while func_two returns "456". The other difference concerns arguments. A Lambda will raise an Argument Error if given an extra argument, while a Proc will accept any number of arguments. I think I understand all of this, but we'll see how it goes.
+ </p>
+
+<p>
+
+Again Soon,
+
+Staunton</p>
+</div>
+
+</section>
+
+</body>
