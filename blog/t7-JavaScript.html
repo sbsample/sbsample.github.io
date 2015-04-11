@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hooray Code!</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+ <body>
+  <div id="picbanner"><img src="http://ih3.redbubble.net/image.27169355.2574/fc,550x550,forest.jpg"></div>
+
+  <nav>
+   <div class="navbar"> <a href= "http://sbsample.github.io/blog/index.html"> Blog Home</a></div>
+   <div class="navbar"><a href="#">About</a></div>
+   <div class="navbar"> <a href="#">Projects</a></div>
+   <div class="navbar"><a href="#">Etc</a></div>
+   <div class="navbar"><a href="#">Contact</a></div>
+  </nav>
+<main>
+<h2 id="title">Objects vs. Class</h2>
+<h3></h3>
+<h4>April 11, 2015</h4>
+
+<section>
+<div id="textplace">
+<p>How do classes relate to objects? Let me begin by saying that this will not be a post on the objectification of the capitalist worker by the elite. Another time perhaps? This blog post will cover the differences between Ruby class and JavaScript Object creation and usage. They are very similar structure types, and used for very similar purposes in their respective languages. The have similar means of creation, variable naming, and function/method usage. Yet the most striking difference is in their philosophy on how the function/ method operates within their respective scopes</p>
+
+<p> The creation of both an Object and a Class are relatively similar.
+  class Food
+  def initialize
+    puts "Food!"
+  end
+end
+
+@apple = Food.new
+
+
+function Food(){
+  console.log('Food!');
+}
+
+var apple = new Food();
+
+The first example is of the class Food, while the second is the object Food. These example are an excellent demonstration of the major difference between classes and objects. The JS object is defined as a function to start while any methods form the class must be defined after the initialization of the class. The next two examples will demonstrate this.
+
+class Food
+  def initialize(flavor)
+    @flavor = flavor
+    puts "Food!"
+  end
+end
+
+function Person(flavor){
+  this.flavor = flavor;
+  console.log('Food!');
+}
+
+As you can see the first example, that of the class, must clearly define the method in the scope of the class. The object has already defined the function, therefore the "this" function acts a marker for the function. I hope that helps.
+
+</p>
+<p>
+
+Again Soon,
+
+Staunton</p>
+</div>
+
+</section>
+
+</body>
