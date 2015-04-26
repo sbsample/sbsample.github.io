@@ -17,8 +17,8 @@
   </nav>
 <main>
 <h2 id="title">BreadPudding.new</h2>
-<h3>A Class for Delicious Programming</h3>
-<h4>March 27, 2015</h4>
+<h3 id= "subtitle">A Class for Delicious Programming</h3>
+<h4 id="date">March 27, 2015</h4>
 
 <section>
 <div id="textplace">
@@ -29,34 +29,35 @@
   So let's start with what we what we know about making food. We will need ingrediants. For our concoction we will need ingrediants for the pudding and for the sauce seperately. I our code they will take the form of variables. We could store them in a number of ways, but lets just stick with a generalized variable. When coding without creating a class, we would have to make these variables global. Instead we are able to define them in terms of the scope of the class only with @. Therefore we will have @pudding and @sauce. The process of making the pudding will be represented by methods. Like the variables, we can define these in terms of the scope of the class. Therefore we don't have to continuosly create new methods each time we want to make a new pudding.
 </p>
 <p>
-  The code should look like this:
-  class Bread Pudding
-    def initialize
-    @pudding=pudding
-    @sauce=sauce
-    end
-
-    def combine_ingrediants
-      @mix = @pudding.combine{|mix, ingrediant| mix + ingrediant}
-    end
-
-    def bake_mix
-      @mix.bake
-    end
-
-    def make_sauce
-      @sauce.combine.heat
-    end
-
-    def serve
-    return bake_mix + make_sauce
-  end
+  The code should look like this:<br>
+  <br>
+  class Bread Pudding<br>
+    def initialize<br>
+    @pudding=pudding<br>
+    @sauce=sauce<br>
+    end<br>
+<br>
+    def combine_ingrediants<br>
+      @mix = @pudding.combine{|mix, ingrediant| mix + ingrediant}<br>
+    end<br>
+<br>
+    def bake_mix<br>
+      @mix.bake<br>
+    end<br>
+<br>
+    def make_sauce<br>
+      @sauce.combine.heat<br>
+    end<br>
+<br>
+    def serve<br>
+    return bake_mix + make_sauce<br>
+  end<br>
 </p>
 
 <p>
 
-Again Soon,
-
+Again Soon,<br>
+<br>
 Staunton</p>
 </div>
 
