@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hooray Code!</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+ <body>
+  <div id="picbanner"><img src="http://ih3.redbubble.net/image.27169355.2574/fc,550x550,forest.jpg"></div>
+
+  <nav>
+   <div class="navbar"> <a href= "http://sbsample.github.io/blog/index.html"> Blog Home</a></div>
+   <div class="navbar"><a href="#">About</a></div>
+   <div class="navbar"> <a href="#">Projects</a></div>
+   <div class="navbar"><a href="#">Etc</a></div>
+   <div class="navbar"><a href="#">Contact</a></div>
+  </nav>
+<main>
+<h2 id="title">Questions </h2>
+<h3 id="subtitle">Or, What Do I Really Want to Know </h3>
+<h4 id="date">April 25th, 2015</h4>
+
+<section>
+<div id="textplace">
+<p>So, it's finally time to wrap up Phase 0 for Dev Bootcamp Prep. This week's prompt is how to ask the right questions.A question, whether good or bad, will establish a paradigm and a context for the answer. A vague question will induce vague answers.  The proper question will frame the answer for the responder. It will alert the person as to te scope of the answer that you'd like to recieve. I honestly wished I had learned this concept when I was say fifteen or sixteen. I have spen most of my life asking vague questions and only recieving the same vague responses in return. </p>
+
+<p>For the last four years or so I have languished without true purpose. At least professionally. When I had fully abandoned the idea that I was going to be an academic, I had no real direction. I was stuck asking the question of, "What should I do?" I sought counsel from all the intelligent, successful people I knew. The problem was not the quality of people, but the quality of question. "What should I do?", was met met with shrugs and puzzled looks. Most, out of desperation, would advise to find what you love. That was probbaly the worst advice I could have recieved. Finally, I learned to start asking better questions, and I recieved better answers.  The best piece of advise to my younger self would be to learn to frame questions in the way you want to recieve the answer. 
+	
+</p>
+<p>
+
+Again Soon,<br>
+<br>
+Staunton</p>
+</div>
+</main>
+</section>
+
+</body>
